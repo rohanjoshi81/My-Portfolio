@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
-html[light-mode="light"] {
+java[light-mode="light"] {
   --bg1-color: rgba(0, 0, 0, 0);
   --text-color: #6c757d;
   --shadow-col1: #babdc2;
@@ -10,7 +10,7 @@ html[light-mode="light"] {
   --head-col: black;
 }
 
-html[light-mode="dark"] {
+java[light-mode="dark"] {
   --bg1-color: #272727;
   --text-color: #fff;
   --bg-txt-img: linear-gradient(315deg, #d5adc8 0%, #ff8489 74%);
@@ -21,7 +21,7 @@ html[light-mode="dark"] {
   --head-col: #fff;
 }
 
-html {
+java {
   overflow-x: hidden;
 }
 
@@ -56,7 +56,7 @@ html {
     padding: 20px;
     box-shadow: 0px 0px 15px 2px black;
 }
-html[light-mode="light"] .tech_card{
+java[light-mode="light"] .tech_card{
     background-color: white;
     color: #303030;
     box-shadow: 0px 0px 10px #303030;
@@ -83,7 +83,7 @@ html[light-mode="light"] .tech_card{
     color: #4e00bb;
     text-shadow: 0px 0px 15px #4e00bb;
 }
-html[light-mode="light"] .main-heading .my_techstacks{
+java[light-mode="light"] .main-heading .my_techstacks{
     text-shadow: none !important;
 }
 .skill-head{
@@ -94,13 +94,13 @@ html[light-mode="light"] .main-heading .my_techstacks{
     color: #4e00bb;
     text-shadow: 0px 0px 15px #4e00bb;
 }
-html[light-mode="light"] .skill-head .my_skill{
+java[light-mode="light"] .skill-head .my_skill{
     text-shadow: none !important;
 }
 .tech_card .card_img img{
     animation: scale_anime 2s infinite ease-in-out;
 }
-html[light-mode="light"] .tech_card img{
+java[light-mode="light"] .tech_card img{
     animation: scale_anime_dark 2s infinite ease-in-out;
 
 }
@@ -124,11 +124,11 @@ html[light-mode="light"] .tech_card img{
         transform: scale(1);
     }
 }
-#svg_css_text {
+#svg_springboot_text {
     animation: translate_forward 2s infinite ease-in-out;
 }
 
-#svg_html_text {
+#svg_java_text {
     animation: translate_backward 2s infinite ease-in-out;
 }
 
@@ -174,7 +174,7 @@ html[light-mode="light"] .tech_card img{
     font-size: 2.5rem;
     opacity: .7;
 }
-html[light-mode="light"] .techstacks_icons .techstack_icon i {
+java[light-mode="light"] .techstacks_icons .techstack_icon i {
     font-size: 2.5rem;
     opacity: 1;
 }
@@ -184,7 +184,7 @@ div.techstack_icon>i:hover {
     transform: scale(1.3);
 }
 
-div.html_icon.techstack_icon>i.fa-html5 {
+div.java_icon.techstack_icon>i.fa-java5 {
     /* color: #FF5733 !important; */
     display: inline-block;
     background: linear-gradient(-90deg, #F06529 50%, #E34C26 50%);
@@ -194,7 +194,7 @@ div.html_icon.techstack_icon>i.fa-html5 {
     -moz-text-fill-color: transparent;
 }
 
-div.techstack_icon>i.fa-css3-alt {
+div.techstack_icon>i.fa-springboot-alt {
     /* color: #2965f1 !important; */
     display: inline-block;
     background: linear-gradient(-90deg, #264de4 50%, #2965f1 50%);
@@ -229,7 +229,7 @@ div.techstack_icon>i.fa-git-alt {
     color: #F1502F;
 }
 
-div.techstack_icon>i.fa-node {
+div.techstack_icon>i.fa-mysql {
     color: #3C873A;
 }
 
@@ -274,7 +274,7 @@ div.techstack_icon>i.fa-cuttlefish {
     color: #bb86c9;
     text-decoration: none;
 }
-html[light-mode="light"] .project_item a{
+java[light-mode="light"] .project_item a{
     color: #4e00bb ;
     text-decoration: none;
 }
