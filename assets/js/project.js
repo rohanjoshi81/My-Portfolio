@@ -7,7 +7,7 @@ const projectcards = document.querySelector(".projectcards");
 const projects = [
   {
     title: "IRFR",
-    cardImage: "assets/images/project-page/project_irfr.jpg",
+    cardImage: "assets/images/project-page/project_irfr.JPG",
     description: "Information Retrieval using Face Recognition. A face recognition app based on OpenCV written in C++.",
     Githublink: "https://github.com/rogueleader/irfr",
   },
@@ -31,7 +31,7 @@ const projects = [
   },
   {
     title: "Auticure",
-    cardImage: "assets/images/project-page/project_auticure.jpg",
+    cardImage: "assets/images/project-page/project_auticure.JPG",
     description: "A static website related to Autism built for NGO Ammucare. Written in HTML.",
     Githublink: "http://rogueleader.github.io/autiCure-web/",
   },
